@@ -16,7 +16,7 @@ Usage:
 
 Call Function
 ```
-RenameAndMove()
+rename_and_move()
 ```
 
 Params youn can Adjust :
@@ -37,17 +37,17 @@ copy_testfolder=False                          # If you have Test Data you can C
 resize=True                                    # No Resize only Copy
 height=12/                                     # Set the Target Height of the TrainData
 width=128                                      # Set the Target Width of the Traindata
-greyScale=True                                 # If you wanna GreyScale the Pictures in Target Folder or want the Root Format
+greyscale=True                                 # If you wanna GreyScale the Pictures in Target Folder or want the Root Format
 ```
 
 Examples :
 ```
 # Set the target size to : 256x256 without GreyScale it
-RenameAndMove(width=256, height=256, greyScale=False)
+rename_and_move(width=256, height=256, greyscale=False)
 
 # Just Copy the Files and Generate the labels.csv
-RenameAndMove(resize=False, greyScale=False)
+rename_and_move(resize=False, greyscale=False)
 
 # Set the Source path of the Collected Data you wish do Process to your Custom
-RenameAndMove(base_folder="anyOtherPath")
+rename_and_move(base_folder="anyOtherPath")
 ```
