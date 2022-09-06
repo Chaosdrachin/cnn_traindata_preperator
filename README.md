@@ -1,5 +1,16 @@
 # cnn_traindata_preperator
 Compys Images from a Folder to another , resizes and Greyscale it (Configurable)
+And Creates a Label File in .csv Format
+
+CSV Outout Example :
+```
+folder,label,
+prepared_data/pictures/animals\Bear\0.jpg,Bear,
+prepared_data/pictures/animals\Bear\1.jpg,Bear,
+prepared_data/pictures/animals\Bear\2.jpg,Bear,
+prepared_data/pictures/animals\Bear\3.jpg,Bear,
+...
+```
 
 Usage:
 
